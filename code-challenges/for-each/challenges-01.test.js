@@ -58,13 +58,16 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-  if (num === num){
-    
+  if (num % 3 === 2) {
+    return arr.pop(num);
   }
 };
 
-const removeElements = (arr, callback) => {
-  // Solution code here...
+const removeElements = (arr, removeOne) => {
+  for(let i = 0; i < arr.length; i++){
+    removeOne(arr[i], arr);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -109,7 +112,8 @@ This function should use forEach to populate your grocery list based on the stor
 ------------------------------------------------------------------------------------------------ */
 
 const createList = (availableItems) => {
-  // Solution code here...
+  // let grocery = [];
+  // let behavior = () => 
 };
 
 /* ------------------------------------------------------------------------------------------------
