@@ -34,14 +34,15 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const addValues = (arr, value) => {
-  arr = [];
   return arr.push(value);
 
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  arr.push(num);
-
+  for(var i = 0; i < times; i++){
+    callback(arr, num);
+  } 
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -57,7 +58,9 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-  // Solution code here...
+  if (num === num){
+    
+  }
 };
 
 const removeElements = (arr, callback) => {
