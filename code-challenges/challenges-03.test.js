@@ -127,7 +127,18 @@ const people = [
 ];
 
 const sortPeople = (arr) => {
-  return arr.sort((a, b) => a.lastName-b.lastName);
+  arr.sort((a,b) => {
+    if(a.lastName < b.lastName){
+      return -1;
+    }
+    else if(a.lastName > b.lastName){
+      return 1;
+    }
+    else {
+      return 0;
+    }
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
