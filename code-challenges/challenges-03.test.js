@@ -153,27 +153,17 @@ If two people have the same full name, the younger one should come first. Do not
 
 const sortPeopleBetter = (arr) => {
   arr.sort((a,b) => {
-    if(a.toLowerCase().lastName < b.toLowerCase().lastName){
-      return -1;
+    if(a.lastName.toLowerCase() === b.lastName.toLowerCase() && a.firstName.toLowerCase() === b.firstName.toLowerCase()){
+      return a.age > b.age;
     }
-    else if(a.toLowerCase().lastName > b.toLowerCase().lastName){
-      return 1;
+    else if(a.lastName.toLowerCase() === b.lastName.toLowerCase()){
+      return a.firstName.toLowerCase() < b.firstName.toLowerCase();
     }
     else {
-      if(a.age < b.age){
-        return 1;
-      }
-      else if(a.age > b.age){
-        return -1
-      }
-      else{
-        return 0;
-      }
+      return a.firstName.toLowerCase() > b.firstName.toLowerCase();
     }
   });
-  return arr;
-};
-
+}
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 9 - Stretch Goal
 
