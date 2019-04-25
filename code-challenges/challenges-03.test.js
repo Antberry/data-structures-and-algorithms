@@ -21,8 +21,11 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 ------------------------------------------------------------------------------------------------ */
 
 const alphabetize = (arr) => {
-  // Solution code here...
-};
+  arr.sort((a,b) => {
+  if(a.toLowercase() < b.toLowercase()){
+    return -1;
+  }
+});
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
