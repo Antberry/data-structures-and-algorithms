@@ -26,10 +26,9 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  let myArr = [];
-  let myRegex = /\b^[A-Z]?\b/g;
-  myArr.push(str.match(myRegex));
-  return myArr;
+  let myRegex = /\b[A-Z]\w*\b/g;
+  str.match(myRegex);
+  return str;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -69,7 +68,7 @@ The expected output of "Hello, and have a wonderful day!" is ["and ", "have ", "
 ------------------------------------------------------------------------------------------------ */
 
 const noPunctuation = str => {
-  // Solution code here...
+  /\b\w*\b/
 };
 
 /* ------------------------------------------------------------------------------------------------
