@@ -74,7 +74,10 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.ingredients.forEach(element => {
+    let secondSpace = element.indexOf(' ', element.indexOf(' ')+ 1);
+    result.push(element.slice(secondSpace + 1))
+  });
   return result;
 };
 
@@ -122,7 +125,15 @@ For example:
 ------------------------------------------------------------------------------------------------ */
 
 const removeEvenValues = (arr) => {
-  // Solution code here...
+  let i =0;
+  while(i < arr.length){
+    if(arr[i] % 2 ===0){
+      arr.splice(i, 1);
+    } else {
+      i++;
+    }
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
