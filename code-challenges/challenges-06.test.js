@@ -13,7 +13,7 @@ const courseInfo = { name: 'Code 301', duration: { dayTrack: '4 weeks', eveningT
   finalExam: true };
 
 const getCourseKeys = (obj) => {
-  // Solution code here...
+  return Object.keys(obj);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -70,7 +70,9 @@ let characters = [
 
 const getHouses = (arr) => {
   let houses = [];
-  // Solution code here...
+  Object.values(arr).forEach(element => {
+    houses.push(element.house);
+  });
   return houses;
 };
 
@@ -87,7 +89,15 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // Solution code here...
+  let kids =0;
+  arr.forEach(element => {
+    if(Object.values(element)[0] === character && Object.values(element)[2].length !== 0){
+      kids = true;
+    } else if (Object.values(element)[0] === character && Object.values(element)[2].length === 0) {
+      kids = false;
+    }
+  })
+  return kids;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -99,7 +109,15 @@ The input and output of this function are the same as the input and output from 
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenEntries = (arr, character) => {
-  // Solution code here...
+  let kids =0;
+  arr.forEach(element => {
+    if(Object.entries(element)[0][1] === character && Object.entries(element)[2][1].length !== 0){
+      kids = true;
+    } else if (Object.entries(element)[0][1] === character && Object.entries(element)[2][1].length === 0) {
+      kids = false;
+    }
+  })
+  return kids;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -109,7 +127,16 @@ Write a function named totalCharacters that takes in an array and returns the nu
 ------------------------------------------------------------------------------------------------ */
 
 const totalCharacters = (arr) => {
-  // Solution code here...
+  let count = 0;
+  arr.forEach(character => {
+    count++;
+    if(character.spouse !== null){
+      count++;
+    }
+    count += Object.values(character)[2].length;
+
+  })
+  return count;
 };
 
 /* ------------------------------------------------------------------------------------------------
