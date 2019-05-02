@@ -30,7 +30,9 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-
+  let newArr = [];
+  newArr = arr.split('');
+  return newArr;
 };
 
 
@@ -94,7 +96,10 @@ You may also use other string or array methods.
 
 const splitFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.ingredients.forEach(element => {
+    let seperatedWords = element.ingredients.split(' ');
+    result.push(seperatedWords[2].join(' '));
+  })
   return result;
 };
 
