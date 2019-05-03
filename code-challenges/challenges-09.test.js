@@ -10,7 +10,7 @@ Note: You may not use the array's built-in length property.
 
 const countNumberOfElements = (arr) => {
   // Solution code here...
-  return arr.reduce(arr, 0);
+  return arr.reduce(total => total+ 1, 0);
 
 };
 
@@ -70,8 +70,14 @@ let starWarsData = [{
   gender: 'female'
 }];
 
+function nameAdder(ansSoFar, current){
+  ansSoFar.push(current.name);
+  return ansSoFar;
+}
+
 const returnNames = (arr) => {
-  // Solution code here...
+  return arr.reduce(nameAdder, []);
+
 };
 
 /* ------------------------------------------------------------------------------------------------
