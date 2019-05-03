@@ -1,5 +1,7 @@
 'use strict';
 
+// import { objectExpression } from "@babel/types";
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1
 
@@ -8,8 +10,12 @@ Write a function named oddValues that, given an array of integers as input, uses
 For example, oddValues([1,2,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
-const oddValues = (arr) => {
-  // Solution code here...
+const oddValues = (arr) => { 
+  let odd = function(num){
+    return num % 2 === 1;
+  }
+  let oddArr = arr.filter(odd);
+  return oddArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -24,6 +30,9 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 
 const filterStringsWithVowels = (arr) => {
+  let rex = /[aeiou]/ig;
+  let results = arr.filter(element => rex.test(element));
+  return results;
   // Solution code here...
 };
 
@@ -37,7 +46,7 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 ------------------------------------------------------------------------------------------------ */
 
 const notInFirstArray = (forbiddenValues, arr) => {
-  // Solution code here...
+  return arr.filter(element => !forbiddenValues.includes(element));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -80,7 +89,10 @@ const snorlaxData = {
 };
 
 const getBaseStatGreaterThan = (arr, minBaseStat) => {
-  // Solution code here...
+  let filtered = arr.filter(element =>{
+    return element.baseStat > minBaseStat;
+  });
+  return filtered;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -92,7 +104,12 @@ For example, getStatName(snorlaxData.stats, 50) will return ['special-defense', 
 ------------------------------------------------------------------------------------------------ */
 
 const getStatName = (arr, minBaseStat) => {
-  // Solution code here...
+  let filtered = arr.filter(element => {
+    return element.baseStat > minBaseStat;
+  });
+  return filtered.map(obj => {
+    return obj.stat.name;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -145,7 +162,13 @@ const characters = [
 ];
 
 const getCharactersWithoutChildren = (arr) => {
-  // Solution code here...
+  return arr.filter(character => {
+    if(!character.children){
+      return true;
+    } else {
+      return false;
+    }
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
