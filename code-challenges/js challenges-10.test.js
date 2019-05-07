@@ -12,9 +12,20 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
 
 const count = (target, input) => {
-  // filter this one
+  let count = 0;
+  input.filter(element => {
+    element.map(el => {
+      if (target === el){
+        count++;
+        return true;
+      } else {
+        return false;
+      }
+    });
+  });
+  return count;
+}
 
-};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -27,7 +38,9 @@ For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 ------------------------------------------------------------------------------------------------ */
 
 const totalSum = (input) => {
-  // filter for this one
+  return input.reduce((ansSoFar, num) => {
+    return ansSoFar + num.reduce((ansSoFar,currentAns) => ansSoFar + currentAns, 0);
+  },0);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -115,7 +128,7 @@ let starWarsData = [{
 }];
 
 let findMaleAndFemale = (data) => {
-  return data.filter(element => element.gender === 'male' || element.gender === 'female').join(' and');
+  return data.filter(element => element.gender === 'male' || element.gender === 'female').map(element => element.name).join(' and ');
 };
 
 /* ------------------------------------------------------------------------------------------------
