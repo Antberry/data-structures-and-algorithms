@@ -138,8 +138,18 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
-  // Solution code here...
+  let db = data.reduce((ansSoFar, num) => {
+    console.log(ansSoFar);
+    if(parseInt(ansSoFar.height) < parseInt(num.height)) {
+      return ansSoFar;
+    } else {
+      return num;
+    }
+  }).name;
+  console.log(db);
+  return db;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
