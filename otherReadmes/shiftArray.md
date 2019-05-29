@@ -6,6 +6,6 @@ This daily README contains information about the second code challenge, includin
 
 [Link to code](../401codechallenges/src/main/java/codechallenges/insertShiftArray.java)
 
-[Link to tests](../code401challenges/src/test/java/401codechallenges/insertShiftArrayTest.java)
+[Link to tests](../401codechallenges/src/test/java/codechallenges/InsertShiftArrayTest.java)
 
 ![Picture of whiteboard for Array Reverse](../assets/insertShiftArray.jpg)
