@@ -3,13 +3,7 @@ package codechallenges;
 import java.util.Arrays;
 
 
-public class insertShiftArray {
-
-    public static void main(String[] args) {
-        int input[] = new int[]{1, 2, 3, 4, 5, 77, -4};
-
-        System.out.println(Arrays.toString(insertShiftArray(input, 20)));
-    }
+public class InsertShiftArray {
 
     public static int[] insertShiftArray(int[] inputArray, int value) {
         int newArray[] = new int[inputArray.length + 1];
