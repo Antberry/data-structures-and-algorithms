@@ -1,4 +1,4 @@
-# Array Reverse
+# Insert Shift Array
 
 This daily README contains information about the second code challenge, including a picture of the whiteboard completed and a link to the code.
 
