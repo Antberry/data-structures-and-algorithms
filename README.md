@@ -1,13 +1,8 @@
-# data-structures-and-algorithms
+# Data Structures & Algorithms File Structure for Code 401: Java
 
-# Reverse an Array
-reverse Array of any size
+This repo shows the expected file structure for Code 401: Java data structures & algorithms. The command `gradle init --type java-library` was run inside of the `code401challenges` directory, and that `code401challenges` directory is the root from which I open IntelliJ.
 
-## Challenge
-Giving an a array. Write and method to reverse the numbers in the array.
+This root README is where the links to daily work should live.
 
-## Approach & Efficiency
-I approach this as how to the get last number in the array in a loop then worked backwards
-
-## Solution
-array-reverse.jpg its in my assets folder. I dont know how to put a picture in here.
+## Week 1 Challenges
+* [Day 1: Reverse an Array](./otherReadmes/arrayReverse.md)
