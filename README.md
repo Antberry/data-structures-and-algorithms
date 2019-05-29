@@ -5,4 +5,4 @@ This repo shows the expected file structure for Code 401: Java data structures &
 This root README is where the links to daily work should live.
 
 ## Week 1 Challenges
-* [Day 1: Reverse an Array](./otherReadmes/arrayReverse.md)
+* [Day 2: Insert Shift Array](./otherReadmes/shiftArray.md)
