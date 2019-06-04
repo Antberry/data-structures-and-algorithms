@@ -4,7 +4,7 @@ This daily README contains information about the sixth code challenge, including
 
 (Note that if this challenge was a part of prework, it does not need to be in this file location or contain these links, but this is the correct template for future code challenges.)
 
-[Link to code](../code401challenges/src/main/java/codechallenges/LinkedList.java)
+[Link to code](../401codechallenges/src/main/java/codechallenges/LinkedList.java)
 
 [Link to tests](../code401challenges/src/test/java/codechallenges/LinkedListTest.java)
 
