@@ -6,7 +6,16 @@ import java.util.ArrayList;
 public class LinkedList {
 
  Node head;
+ public class Node {
+     int data;
+     Node next;
 
+     public Node (int val){
+         this.data =  val;
+         this.next = null;
+     }
+
+ }
  public LinkedList (){
   this.head = null;
  }
@@ -39,5 +48,55 @@ public class LinkedList {
       nextNode = nextNode.next;
      }
      return arrList;
+    }
+
+    public void append(int val){
+     Node current = head;
+     Node newNode = new Node(val);
+
+     while(current != null){
+         if(current != null){
+             current.next = newNode;
+         }
+         current = current.next;
+     }
+
+    }
+
+    public void before(int val, int newVal){
+     if(head.data == val){
+         insert(newVal);
+     } else {
+         Node current = head;
+         Node newNode = new Node(newVal);
+
+         while(current.next != null){
+             if(current.next.data == val){
+                 newNode.next = current.next;
+                 current.next = newNode;
+                 break;
+             }
+             current = current.next;
+         }
+     }
+
+    }
+
+    public void after(int val, int newVal){
+        if(head.data == val){
+            append(newVal);
+        } else {
+            Node current = head;
+            Node newNode = new Node(newVal);
+
+            while(current != null){
+                if(current.data == val){
+                    newNode.next = current.next;
+                    current.next = newNode;
+                    break;
+                }
+                current = current.next;
+            }
+        }
     }
 }

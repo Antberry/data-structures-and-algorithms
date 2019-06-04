@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class linked_listTest {
+public class LinkedListTest {
     @Test
     public void emptyLinkedListTest(){
         LinkedList lList = new LinkedList();
@@ -76,6 +76,87 @@ public class linked_listTest {
         expectedArr.add(1);
 
         assertEquals("This should return new arrayList", expectedArr, returnValuesList.print());
+
+    }
+
+//    Can successfully add a node to the end of the linked list
+    @Test
+    public void addNodeToEndTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.append(6);
+        assertEquals( );
+
+    }
+//    Can successfully add multiple nodes to the end of a linked list
+    @Test
+    public void addMultiNodesToEndTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.append(6);
+        newList.append(7);
+        newList.append(8);
+        assertEquals( );
+
+    }
+//    Can successfully insert a node before a node located i the middle of a linked list
+    @Test
+    public void insertNodeBeforeNodeInMiddleTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.before(3,6);
+        assertEquals( );
+
+    }
+//    Can successfully insert a node before the first node of a linked list
+    @Test
+    public void insertNodeBeforeFirstNodeTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.before(5,6);
+        assertEquals( );
+
+    }
+//    Can successfully insert after a node in the middle of the linked list
+    @Test
+    public void insertNodeAfterNodeInMiddleTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.after(3,6);
+        assertEquals( );
+
+    }
+//    Can successfully insert a node after the last node of the linked list
+    @Test
+    public void insertNodeAfterLastNodeTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.after(1, 6);
+        assertEquals( );
 
     }
 }
