@@ -77,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -180,8 +180,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.linked_listTest.returnCollectionOfValueTest">
-    <configuration name="linked_listTest.findValueInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest.returnCollectionOfValueTest">
+    <configuration name="LinkedListTest.findValueInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
@@ -190,14 +190,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codechallenges" />
-      <option name="MAIN_CLASS_NAME" value="codechallenges.linked_listTest" />
+      <option name="MAIN_CLASS_NAME" value="codechallenges.LinkedListTest" />
       <option name="METHOD_NAME" value="findValueInList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_listTest.headPointFirstNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.headPointFirstNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
@@ -206,14 +206,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codechallenges" />
-      <option name="MAIN_CLASS_NAME" value="codechallenges.linked_listTest" />
+      <option name="MAIN_CLASS_NAME" value="codechallenges.LinkedListTest" />
       <option name="METHOD_NAME" value="headPointFirstNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_listTest.multipleNodeInLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.multipleNodeInLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
@@ -222,14 +222,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codechallenges" />
-      <option name="MAIN_CLASS_NAME" value="codechallenges.linked_listTest" />
+      <option name="MAIN_CLASS_NAME" value="codechallenges.LinkedListTest" />
       <option name="METHOD_NAME" value="multipleNodeInLinkedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_listTest.returnCollectionOfValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.returnCollectionOfValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
@@ -238,14 +238,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codechallenges" />
-      <option name="MAIN_CLASS_NAME" value="codechallenges.linked_listTest" />
+      <option name="MAIN_CLASS_NAME" value="codechallenges.LinkedListTest" />
       <option name="METHOD_NAME" value="returnCollectionOfValueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_listTest.searchNonExistValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.searchNonExistValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
@@ -254,7 +254,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codechallenges" />
-      <option name="MAIN_CLASS_NAME" value="codechallenges.linked_listTest" />
+      <option name="MAIN_CLASS_NAME" value="codechallenges.LinkedListTest" />
       <option name="METHOD_NAME" value="searchNonExistValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -263,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.linked_listTest.returnCollectionOfValueTest" />
-        <item itemvalue="JUnit.linked_listTest.searchNonExistValue" />
-        <item itemvalue="JUnit.linked_listTest.findValueInList" />
-        <item itemvalue="JUnit.linked_listTest.multipleNodeInLinkedList" />
-        <item itemvalue="JUnit.linked_listTest.headPointFirstNode" />
+        <item itemvalue="JUnit.LinkedListTest.returnCollectionOfValueTest" />
+        <item itemvalue="JUnit.LinkedListTest.searchNonExistValue" />
+        <item itemvalue="JUnit.LinkedListTest.findValueInList" />
+        <item itemvalue="JUnit.LinkedListTest.multipleNodeInLinkedList" />
+        <item itemvalue="JUnit.LinkedListTest.headPointFirstNode" />
       </list>
     </recent_temporary>
   </component>
