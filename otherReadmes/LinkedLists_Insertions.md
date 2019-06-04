@@ -6,7 +6,7 @@ This daily README contains information about the sixth code challenge, including
 
 [Link to code](../401codechallenges/src/main/java/codechallenges/LinkedList.java)
 
-[Link to tests](../401codechallenges/src/main/java/codechallenges/LinkedListTest.java)
+[Link to tests](../401codechallenges/src/test/java/codechallenges/LinkedListTest.java)
 
 ![Picture of whiteboard for LinkedList-Append](../assets/LL-Append.jpg)
 
