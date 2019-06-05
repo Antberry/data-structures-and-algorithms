@@ -168,22 +168,52 @@ public class LinkedListTest {
 //    Where k is greater than the length of the linked list
     @Test
     public void valGreaterThanLengthOfListTest(){
-
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        newList.nthNodeFromLast(2);
+        System.out.println(newList.nthNodeFromLast(2));
+        assertTrue("This should return 3 equal 3 which should be true", newList.nthNodeFromLast(2) == 3);
 
     }
 //    Where k and the length of the list are the same
     @Test
     public void valAndLengthTheSameTest(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+        System.out.println(newList.nthNodeFromLast(5));
+        assertTrue("This should return 5 equal 5 which should be true", newList.nthNodeFromLast(5) == 5);
 
     }
 //    Where k is not a positive integer
     @Test
     public void valIsNotAPositiveNumTest(){
 
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        newList.insert(2);
+        newList.insert(3);
+        newList.insert(4);
+        newList.insert(5);
+
+//        System.out.println(newList.nthNodeFromLast(-1));
+        assertEquals(new NullPointerException(null), newList.nthNodeFromLast(-2));
+
+
     }
 //    Where the linked list is of a size 1
     @Test
     public void linkedListSizeOfOne(){
-
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        System.out.println(newList.nthNodeFromLast(1));
+        assertTrue("This should return 1 equal 1 which should be true", newList.nthNodeFromLast(1) == 1);
     }
 }
