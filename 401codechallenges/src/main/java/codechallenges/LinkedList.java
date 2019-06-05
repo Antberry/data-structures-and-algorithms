@@ -57,6 +57,7 @@ public class LinkedList {
      while(current != null){
          if(current != null){
              current.next = newNode;
+
          }
          current = current.next;
      }
@@ -98,5 +99,22 @@ public class LinkedList {
                 current = current.next;
             }
         }
+    }
+
+    public Integer nthNodeFromLast(int val){
+     int length = 0;
+     Node node = head;
+     while(node != null){
+         node = node.next;
+         length++;
+     }
+     node = head;
+     if(length < val){
+         throw new IllegalArgumentException();
+     }
+     for (int i = 1; i < length - val; i++){
+         node = node.next;
+        }
+     return node.data;
     }
 }

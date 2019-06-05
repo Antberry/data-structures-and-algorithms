@@ -89,7 +89,7 @@ public class LinkedListTest {
         newList.insert(4);
         newList.insert(5);
         newList.append(6);
-        assertEquals( );
+//        assertEquals( );
 
     }
 //    Can successfully add multiple nodes to the end of a linked list
@@ -104,7 +104,8 @@ public class LinkedListTest {
         newList.append(6);
         newList.append(7);
         newList.append(8);
-        assertEquals( );
+        System.out.println(newList.includes(6));
+        assertTrue("This should return True", newList.includes(6) );
 
     }
 //    Can successfully insert a node before a node located i the middle of a linked list
@@ -117,7 +118,8 @@ public class LinkedListTest {
         newList.insert(4);
         newList.insert(5);
         newList.before(3,6);
-        assertEquals( );
+        System.out.println(newList.includes(6));
+        assertTrue("This should return True", newList.includes(6) );
 
     }
 //    Can successfully insert a node before the first node of a linked list
@@ -130,7 +132,8 @@ public class LinkedListTest {
         newList.insert(4);
         newList.insert(5);
         newList.before(5,6);
-        assertEquals( );
+        System.out.println(newList.includes(6));
+        assertTrue("This should return True", newList.includes(6) );
 
     }
 //    Can successfully insert after a node in the middle of the linked list
@@ -143,7 +146,8 @@ public class LinkedListTest {
         newList.insert(4);
         newList.insert(5);
         newList.after(3,6);
-        assertEquals( );
+        System.out.println(newList.includes(6));
+        assertTrue("This should return True", newList.includes(6) );
 
     }
 //    Can successfully insert a node after the last node of the linked list
@@ -156,7 +160,30 @@ public class LinkedListTest {
         newList.insert(4);
         newList.insert(5);
         newList.after(1, 6);
-        assertEquals( );
+        System.out.println(newList.includes(6));
+        assertTrue("This should return True", newList.includes(6) );
+
+    }
+
+//    Where k is greater than the length of the linked list
+    @Test
+    public void valGreaterThanLengthOfListTest(){
+
+
+    }
+//    Where k and the length of the list are the same
+    @Test
+    public void valAndLengthTheSameTest(){
+
+    }
+//    Where k is not a positive integer
+    @Test
+    public void valIsNotAPositiveNumTest(){
+
+    }
+//    Where the linked list is of a size 1
+    @Test
+    public void linkedListSizeOfOne(){
 
     }
 }
