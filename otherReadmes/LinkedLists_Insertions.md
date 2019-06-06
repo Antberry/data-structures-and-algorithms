@@ -16,4 +16,4 @@ This daily README contains information about the sixth code challenge, including
 
 ![Picture of whiteboard for LinkedList-NthFromEnd](../assets/NthfromLast.jpg)
 
-![Picture of whiteboard for LinkedList-MergeList](../assets/LL-merge.jpg)
+![Picture of whiteboard for LinkedList-MergeList](../assets/LL-Merge.jpg)
