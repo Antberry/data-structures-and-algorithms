@@ -15,3 +15,5 @@ This daily README contains information about the sixth code challenge, including
 ![Picture of whiteboard for LinkedList-After](../assets/LL-After.jpg)
 
 ![Picture of whiteboard for LinkedList-NthFromEnd](../assets/NthfromLast.jpg)
+
+![Picture of whiteboard for LinkedList-NthFromEnd](../assets/LL-merge.jpg)
