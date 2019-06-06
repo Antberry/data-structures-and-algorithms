@@ -117,4 +117,38 @@ public class LinkedList {
         }
      return node.data;
     }
+
+    public static LinkedList mergeLists(LinkedList one, LinkedList two){
+     Node currentOne = one.head;
+     Node currentTwo = two.head;
+
+     if(currentOne == null){
+         return two;
+     }
+
+     if(currentTwo == null){
+         return one;
+     }
+
+     Node tempOne = currentOne.next;
+     Node tempTwo = currentTwo.next;
+
+
+
+     while(currentOne != null && currentTwo != null){
+        currentOne.next = currentTwo;
+        currentTwo.next = tempOne;
+        currentOne = tempOne;
+        currentTwo = tempTwo;
+        if (tempOne != null) {
+            tempOne = tempOne.next;
+        }
+        if(tempTwo != null) {
+            tempTwo = tempTwo.next;
+        }
+
+
+     }
+       return one;
+    }
 }

@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.awt.*;
 import java.util.ArrayList;
 
+import static codechallenges.LinkedList.mergeLists;
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
@@ -215,5 +216,50 @@ public class LinkedListTest {
         newList.insert(1);
         System.out.println(newList.nthNodeFromLast(1));
         assertTrue("This should return 1 equal 1 which should be true", newList.nthNodeFromLast(1) == 1);
+    }
+
+    @Test
+    public void mergeListTest(){
+        LinkedList newList1 = new LinkedList();
+        newList1.insert(1);
+        newList1.insert(3);
+        newList1.insert(5);
+
+
+        LinkedList newList2 = new LinkedList();
+        newList2.insert(2);
+        newList2.insert(4);
+        newList2.insert(6);
+        mergeLists(newList1,newList2);
+        System.out.println(newList1.print());
+
+        assertEquals(newList1, newList1);
+    }
+
+    @Test
+    public void mergeListOneNullTest(){
+        LinkedList newList1 = new LinkedList();
+
+
+        LinkedList newList2 = new LinkedList();
+        newList2.insert(2);
+        newList2.insert(4);
+        newList2.insert(6);
+        System.out.println(mergeLists(newList1,newList2).print());
+
+        assertEquals(newList1, newList1);
+    }
+
+    @Test
+    public void mergeListTwoNullTest(){
+        LinkedList newList1 = new LinkedList();
+        newList1.insert(1);
+        newList1.insert(3);
+        newList1.insert(5);
+
+        LinkedList newList2 = new LinkedList();
+        System.out.println(mergeLists(newList1,newList2).print());
+
+        assertEquals(newList1, newList1);
     }
 }
