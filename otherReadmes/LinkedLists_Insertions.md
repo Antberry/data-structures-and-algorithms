@@ -1,6 +1,6 @@
 # LinkedList Insertions
 
-This daily README contains information about the sixth code challenge, including a picture of the whiteboard completed and a link to the code.
+This daily README contains information about the eighth code challenge, including a picture of the whiteboard completed and a link to the code.
 
 (Note that if this challenge was a part of prework, it does not need to be in this file location or contain these links, but this is the correct template for future code challenges.)
 
