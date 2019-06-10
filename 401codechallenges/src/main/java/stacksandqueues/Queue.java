@@ -14,21 +14,48 @@ public class Queue {
         numsEnqueue = 0;
     }
 
+    public Node getFront() {
+        return front;
+    }
+
+    public Node getBack() {
+        return back;
+    }
+
+    public int getNumsEnqueue() {
+        return numsEnqueue;
+    }
+
+    public void setFront(Node front) {
+        this.front = front;
+    }
+
+    public void setBack(Node back) {
+        this.back = back;
+    }
+
+    public void setNumsEnqueue(int numsEnqueue) {
+        this.numsEnqueue = numsEnqueue;
+    }
+
     public void enqueue(int val){
         if(front == null){
-            throw new EmptyStackException();
+
+            Node input = new Node(val);
+            front = input;
+            back = input;
+            numsEnqueue++;
         } else {
             Node lastNode = new Node(val);
-            lastNode = back.next;
+            back.next = lastNode;
             back = lastNode;
-            back.next = null;
             numsEnqueue++;
         }
     }
 
     public int dequeue(){
         if(front == null){
-            throw new EmptyStackException();
+            return 0;
         } else {
             Node firstNode = front;
             Node tempNode = firstNode.next;
@@ -40,7 +67,7 @@ public class Queue {
 
     public int peek(){
         if(front == null){
-            throw new EmptyStackException();
+            return 0;
         }
             return front.data;
     }
