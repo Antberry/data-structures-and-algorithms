@@ -58,8 +58,8 @@ public class Queue {
             return 0;
         } else {
             Node firstNode = front;
-            Node tempNode = firstNode.next;
-            front = tempNode;
+            front = front.next;
+            firstNode.next = null;
             numsEnqueue--;
             return firstNode.data ;
         }
