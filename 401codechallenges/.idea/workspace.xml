@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="92">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state relative-caret-position="308">
+              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -378,21 +378,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest_instantiateAnEmptyStackTest - 2019.06.10 at 13h 29m 59s.xml">
-      <configuration name="StackTest.instantiateAnEmptyStackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_enqueueAQueueTest - 2019.06.10 at 14h 23m 01s.xml">
-      <configuration name="QueueTest.enqueueAQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_enqueueAQueueTest - 2019.06.10 at 14h 23m 38s.xml">
-      <configuration name="QueueTest.enqueueAQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_enqueueAQueueTest - 2019.06.10 at 14h 25m 37s.xml">
-      <configuration name="QueueTest.enqueueAQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_enqueueMulitQueueTest - 2019.06.10 at 14h 26m 47s.xml">
-      <configuration name="QueueTest.enqueueMulitQueueTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueueTest_enqueueMulitQueueTest - 2019.06.10 at 14h 27m 08s.xml">
       <configuration name="QueueTest.enqueueMulitQueueTest" configurationId="JUnit" />
     </history-entry>
@@ -407,6 +392,21 @@
     </history-entry>
     <history-entry file="QueueTest_peekIntoQueueTest - 2019.06.10 at 14h 42m 32s.xml">
       <configuration name="QueueTest.peekIntoQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 14h 43m 28s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_InstantiateEmptyQueueTest - 2019.06.10 at 14h 45m 45s.xml">
+      <configuration name="QueueTest.InstantiateEmptyQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_InstantiateEmptyQueueTest - 2019.06.10 at 14h 46m 22s.xml">
+      <configuration name="QueueTest.InstantiateEmptyQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_InstantiateEmptyQueueTest - 2019.06.10 at 14h 46m 29s.xml">
+      <configuration name="QueueTest.InstantiateEmptyQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 14h 46m 45s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -568,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="92">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#311#312#0" expanded="true" />
@@ -590,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

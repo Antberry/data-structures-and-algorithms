@@ -1,5 +1,6 @@
 package stacksandqueues;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -56,10 +57,10 @@ public class QueueTest {
         newQueue.enqueue(15);
         newQueue.dequeue();
         newQueue.dequeue();
+        assertEquals(14, newQueue.dequeue());
+        assertEquals(15, newQueue.getFront().data);
         newQueue.dequeue();
-        newQueue.dequeue();
-
-        assertEquals(0, newQueue.peek());
+        assertNull(newQueue.getFront());
     }
 //    Can successfully instantiate an empty queue
     @Test
