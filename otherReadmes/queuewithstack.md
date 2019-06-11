@@ -14,3 +14,5 @@ I created method
 ### Enquene
 I created method to empty stack1 into stack2 and save the last Node in Stack1 then put the Node from Stack2
 back into Stack1 then return the tempNode Value I saved.
+
+[QueuewithStack]( )
