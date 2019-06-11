@@ -11,4 +11,4 @@
 [LinkedList Code Challenges](otherReadmes/LinkedLists_Insertions.md)
 
 ## Week 3
-[Stacks and Queues](401codechallenges/src/main/java/stacksandqueues)
+[Stacks and Queues](otherReadmes/stackandqueue.md)
