@@ -12,4 +12,5 @@
 
 ## Week 3
 [Stacks and Queues](otherReadmes/stackandqueue.md)
+
 [Queue with Stacks](otherReadmes/queuewithstack.md)
