@@ -56,14 +56,14 @@ public class Stack<Integer> {
         } catch (Exception error){
             System.err.println("Error has occured");
         }
-        return 0;
+        return java.lang.Integer.parseInt(null);
     }
 
 
 
     public int peek(){
         if(top == null){
-            return 0;
+            return java.lang.Integer.parseInt(null);
         } else {
             return top.data;
         }

@@ -55,7 +55,7 @@ public class Queue {
 
     public int dequeue(){
         if(front == null){
-            return 0;
+            return Integer.parseInt(null);
         } else {
             Node firstNode = front;
             front = front.next;
@@ -67,7 +67,7 @@ public class Queue {
 
     public int peek(){
         if(front == null){
-            return 0;
+            return Integer.parseInt(null);
         }
             return front.data;
     }

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec8fe79-0ebf-4f67-8d50-a0097a115373" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,35 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1733">
-              <caret line="9" selection-start-line="9" selection-end-line="16" />
-              <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            <state relative-caret-position="750">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -72,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="1035">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="721">
+              <caret line="69" column="18" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
@@ -105,14 +81,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+            <state relative-caret-position="915">
+              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -154,10 +152,12 @@
         <option value="$PROJECT_DIR$/src/main/java/codechallenges/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java" />
       </list>
     </option>
   </component>
@@ -173,6 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,22 +227,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codechallenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="401codechallenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
+              <item name="queueWithStacks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,6 +246,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="queueWithStacks" />
       <recent name="stacksandqueues" />
       <recent name="codechallenges" />
     </key>
@@ -378,21 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_enqueueMulitQueueTest - 2019.06.10 at 14h 27m 08s.xml">
-      <configuration name="QueueTest.enqueueMulitQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_enqueueMulitQueueTest - 2019.06.10 at 14h 28m 28s.xml">
-      <configuration name="QueueTest.enqueueMulitQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_enqueueMulitQueueTest - 2019.06.10 at 14h 38m 42s.xml">
-      <configuration name="QueueTest.enqueueMulitQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_dequeueAQueueTest - 2019.06.10 at 14h 41m 32s.xml">
-      <configuration name="QueueTest.dequeueAQueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_peekIntoQueueTest - 2019.06.10 at 14h 42m 32s.xml">
-      <configuration name="QueueTest.peekIntoQueueTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 14h 43m 28s.xml">
       <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
     </history-entry>
@@ -408,12 +386,27 @@
     <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 14h 46m 45s.xml">
       <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 15h 07m 47s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 15h 08m 14s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 15h 09m 14s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 15h 10m 07s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_emptyQueueWithMultiDequeueTest - 2019.06.10 at 15h 11m 14s.xml">
+      <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="777" extended-state="0" />
+    <frame x="40" y="23" width="1400" height="777" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27867648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29338235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -422,7 +415,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,18 +437,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/Library.java">
@@ -511,26 +492,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/linked_listTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1733">
+        <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="16" />
           <folding>
             <element signature="e#261#262#0" expanded="true" />
@@ -539,20 +503,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="3795">
+          <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="750">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
@@ -568,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="721">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#311#312#0" expanded="true" />
@@ -588,13 +579,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        <state relative-caret-position="345">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
