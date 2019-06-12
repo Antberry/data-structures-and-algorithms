@@ -6,13 +6,13 @@ public class PseudoQueue {
 
     Stack stack1 = new Stack();
     Stack stack2 = new Stack();
-    int temp ;
+    Object temp ;
 
     public void enqueue(int val){
         stack1.push(val);
     }
 
-    public int dequeue() {
+    public Object dequeue() {
         for (int i = 1; i < stack1.getStackSize(); i++) {
             stack2.push(stack1.pop());
         }

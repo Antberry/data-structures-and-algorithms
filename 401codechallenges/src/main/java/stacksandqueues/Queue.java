@@ -3,7 +3,7 @@ package stacksandqueues;
 import java.util.EmptyStackException;
 import java.util.Objects;
 
-public class Queue {
+public class Queue<T> {
     private int numsEnqueue;
     private Node front;
     private Node back;
@@ -38,7 +38,7 @@ public class Queue {
         this.numsEnqueue = numsEnqueue;
     }
 
-    public void enqueue(int val){
+    public void enqueue(Object val){
         if(front == null){
 
             Node input = new Node(val);
@@ -53,7 +53,7 @@ public class Queue {
         }
     }
 
-    public int dequeue(){
+    public Object dequeue(){
         if(front == null){
             return Integer.parseInt(null);
         } else {
@@ -65,7 +65,7 @@ public class Queue {
         }
     }
 
-    public int peek(){
+    public Object peek(){
         if(front == null){
             return Integer.parseInt(null);
         }
