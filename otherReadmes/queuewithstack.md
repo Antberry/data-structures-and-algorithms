@@ -9,11 +9,11 @@ Big O is (n), I approached it by locating the top node in Stack and Front and La
 
 ## API
 ### Dequeue
-I created method 
-
-### Enquene
 I created method to empty stack1 into stack2 and save the last Node in Stack1 then put the Node from Stack2
 back into Stack1 then return the tempNode Value I saved.
+
+### Enquene
+I created method to input Nodes into a stack.
 
 [Link to Code](../401codechallenges/src/main/java/queueWithStacks/PseudoQueue.java)
 
