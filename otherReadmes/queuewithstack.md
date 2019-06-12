@@ -19,4 +19,4 @@ back into Stack1 then return the tempNode Value I saved.
 
 [Link to Test](401codechallenges/src/test/java/queueWithStacks/PseudoQueueTest.java)
 
-[Whiteboard](assets/queueStack.jpg)
+(assets/queueStack.jpg)
