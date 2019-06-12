@@ -15,8 +15,8 @@ I created method
 I created method to empty stack1 into stack2 and save the last Node in Stack1 then put the Node from Stack2
 back into Stack1 then return the tempNode Value I saved.
 
-[Link to Code](401codechallenges/src/main/java/queueWithStacks/PseudoQueue.java)
+[Link to Code](../401codechallenges/src/main/java/queueWithStacks/PseudoQueue.java)
 
-[Link to Test](401codechallenges/src/test/java/queueWithStacks/PseudoQueueTest.java)
+[Link to Test](../401codechallenges/src/test/java/queueWithStacks/PseudoQueueTest.java)
 
-(assets/queueStack.jpg)
+[Whiteboard](../assets/queueStack.jpg)
