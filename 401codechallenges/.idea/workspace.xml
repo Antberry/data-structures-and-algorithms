@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="201">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,14 +51,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
                 <element signature="e#206#207#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,8 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java" />
       </list>
     </option>
   </component>
@@ -422,18 +422,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_Test_stacksss - 2019.06.11 at 13h 11m 46s.xml">
-      <configuration name="PseudoQueueTest.Test_stacksss" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_Test_stacksss - 2019.06.11 at 13h 11m 59s.xml">
-      <configuration name="PseudoQueueTest.Test_stacksss" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_Test_stacksss - 2019.06.12 at 13h 35m 58s.xml">
-      <configuration name="PseudoQueueTest.Test_stacksss" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTest - 2019.06.13 at 13h 20m 02s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MultiBracketValidationTest_bracketTest - 2019.06.13 at 13h 21m 03s.xml">
       <configuration name="MultiBracketValidationTest.bracketTest" configurationId="JUnit" />
     </history-entry>
@@ -452,10 +440,21 @@
     <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 37m 06s.xml">
       <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 41m 55s.xml">
+      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 42m 57s.xml">
+      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 44m 30s.xml">
+      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 44m 45s.xml">
+      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30514705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -466,13 +465,13 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Black Caiman" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -695,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="201">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -705,14 +704,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
           </folding>
         </state>
       </provider>
