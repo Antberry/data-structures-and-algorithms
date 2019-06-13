@@ -2,15 +2,15 @@ package stacksandqueues;
 
 
 public class Node {
-    int data;
+    Object data;
     Node next;
 
-    public Node (int val){
+    public Node (Object val){
         this.data =  val;
         this.next = null;
     }
 
-    public Node (int data, Node next){
+    public Node (Object data, Node next){
         this.data = data;
         this.next = next;
     }

@@ -27,7 +27,7 @@ public class Stack<Integer> {
         this.stackSize = stackSize;
     }
 
-    public void push(int val){
+    public void push(Object val){
 
         if(top == null){
            top = new Node(val);
@@ -42,7 +42,7 @@ public class Stack<Integer> {
     }
 
 
-    public int pop(){
+    public Object pop(){
 
         try {
             if(top !=null) {
@@ -61,7 +61,7 @@ public class Stack<Integer> {
 
 
 
-    public int peek(){
+    public Object peek(){
         if(top == null){
             return java.lang.Integer.parseInt(null);
         } else {
