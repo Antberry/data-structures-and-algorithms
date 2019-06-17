@@ -16,3 +16,7 @@
 [Queue with Stacks](otherReadmes/queuewithstack.md)
 
 [multibracketvalidation](otherReadmes/multibracketvalidation.md)
+
+## Week 4
+
+[Binary Tree](otherReadmes/binarytree.md)
