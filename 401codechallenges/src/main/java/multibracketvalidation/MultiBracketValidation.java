@@ -16,22 +16,16 @@ public class MultiBracketValidation {
                 stack.push(single[i]);
             }
 
-            if((single[i].equals(')') && stack.pop().equals('(')) ||
-                    single[i].equals('}') && stack.pop().equals('{') ||
-                        single[i].equals('[') && stack.pop().equals('[')){
+            if((single[i].equals(')') && stack.pop().equals('(')) || single[i].equals('}') && stack.pop().equals('{') || single[i].equals('[') && stack.pop().equals('[')){
                     stack.pop();
+                    return true;
 
                 } else{
                     return false;
                 }
 
 
-            if(stack.getTop() == null){
-                return true;
-            }
-            else{
-                return false;
-            }
+//            if(stack.getTop() == null)
         }
         return true;
     }
