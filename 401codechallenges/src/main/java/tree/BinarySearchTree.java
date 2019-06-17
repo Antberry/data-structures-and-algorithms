@@ -8,27 +8,44 @@ public class BinarySearchTree {
         root = null;
     }
 
-    public void add(Object value){
+    public void add(int value){
         root = add(root, value);
 
     }
 
-    public Boolean contains(Object value){
-
-        return true;
+    public Boolean contains(int val){
+        return contains(root, val);
     }
 
-    private Node add(Node root, Object val){
+    private Node add(Node root, int val){
         if(root == null){
             root = new Node(val);
             return root;
         }
 
-        if(((int) val) < ((int)root.data)){
+        if((val) < ((int)root.data)){
             root.left = add(root.left, val);
-        } else if((int)root.data > ((int)val)){
+        } else if((int)root.data > (val)){
             root.right = add(root.right, val);
         }
         return root;
+    }
+
+    private boolean contains(Node root, int value){
+        if(root == null){
+            return false;
+        }
+
+        if (((int) root.data) == value){
+            return true;
+        }
+
+        if((value) > ((int) root.data) && root.left != null){
+            return contains(root.left, value);
+
+        } else if ((value) < ((int) root.data) && root.right != null){
+            return contains(root.right, value);
+        }
+        return false;
     }
 }
