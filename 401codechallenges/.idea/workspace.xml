@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ec8fe79-0ebf-4f67-8d50-a0097a115373" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,43 +24,46 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="243">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tree/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="291">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -72,81 +76,6 @@
               <folding>
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#284#285#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,8 +119,13 @@
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java" />
         <option value="$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/BinaryTreeTest.java" />
       </list>
     </option>
   </component>
@@ -207,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,7 +182,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="multibracketvalidation" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
@@ -260,14 +196,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="401codechallenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codechallenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
@@ -281,8 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +222,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tree" />
       <recent name="multibracketvalidation" />
       <recent name="queueWithStacks" />
       <recent name="stacksandqueues" />
@@ -317,82 +244,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MultiBracketValidationTest.bracketTfalseTest">
-    <configuration name="MultiBracketValidationTest.bracketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest.addLeftAndRightChildtoSingleRoot">
+    <configuration name="BinaryTreeTest.addLeftAndRightChildtoSingleRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multibracketvalidation.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="multibracketvalidation" />
-      <option name="MAIN_CLASS_NAME" value="multibracketvalidation.MultiBracketValidationTest" />
-      <option name="METHOD_NAME" value="bracketTest" />
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="addLeftAndRightChildtoSingleRoot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiBracketValidationTest.bracketTfalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.emptyTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multibracketvalidation.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="multibracketvalidation" />
-      <option name="MAIN_CLASS_NAME" value="multibracketvalidation.MultiBracketValidationTest" />
-      <option name="METHOD_NAME" value="bracketTfalseTest" />
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="emptyTreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.Test_stacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.postOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queueWithStacks.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queueWithStacks" />
-      <option name="MAIN_CLASS_NAME" value="queueWithStacks.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="Test_stacks" />
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="postOrderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.Test_stackss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.postorderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queueWithStacks.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queueWithStacks" />
-      <option name="MAIN_CLASS_NAME" value="queueWithStacks.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="Test_stackss" />
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="postorderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.Test_stacksss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.singleRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queueWithStacks.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queueWithStacks" />
-      <option name="MAIN_CLASS_NAME" value="queueWithStacks.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="Test_stacksss" />
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="singleRootTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -400,11 +327,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MultiBracketValidationTest.bracketTfalseTest" />
-        <item itemvalue="JUnit.MultiBracketValidationTest.bracketTest" />
-        <item itemvalue="JUnit.PseudoQueueTest.Test_stacksss" />
-        <item itemvalue="JUnit.PseudoQueueTest.Test_stackss" />
-        <item itemvalue="JUnit.PseudoQueueTest.Test_stacks" />
+        <item itemvalue="JUnit.BinaryTreeTest.addLeftAndRightChildtoSingleRoot" />
+        <item itemvalue="JUnit.BinaryTreeTest.singleRootTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.emptyTreeTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.postOrderTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.postorderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,41 +349,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MultiBracketValidationTest_bracketTest - 2019.06.13 at 13h 21m 03s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_preorderTest - 2019.06.17 at 11h 24m 54s.xml">
+      <configuration name="BinaryTreeTest.preorderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTest - 2019.06.13 at 13h 23m 07s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_preorderTest - 2019.06.17 at 11h 25m 34s.xml">
+      <configuration name="BinaryTreeTest.preorderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTest - 2019.06.13 at 13h 25m 42s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_postorderTest - 2019.06.17 at 11h 26m 18s.xml">
+      <configuration name="BinaryTreeTest.postorderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 27m 22s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_postOrderTest - 2019.06.17 at 11h 29m 24s.xml">
+      <configuration name="BinaryTreeTest.postOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 36m 13s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_postOrderTest - 2019.06.17 at 11h 31m 49s.xml">
+      <configuration name="BinaryTreeTest.postOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 37m 06s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_emptyTreeTest - 2019.06.17 at 11h 35m 42s.xml">
+      <configuration name="BinaryTreeTest.emptyTreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 41m 55s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_emptyTreeTest - 2019.06.17 at 11h 36m 02s.xml">
+      <configuration name="BinaryTreeTest.emptyTreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 42m 57s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_singleRootTest - 2019.06.17 at 11h 41m 33s.xml">
+      <configuration name="BinaryTreeTest.singleRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 44m 30s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_addLeftAndRightChildtoSingleRoot - 2019.06.17 at 11h 44m 41s.xml">
+      <configuration name="BinaryTreeTest.addLeftAndRightChildtoSingleRoot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiBracketValidationTest_bracketTfalseTest - 2019.06.13 at 13h 44m 45s.xml">
-      <configuration name="MultiBracketValidationTest.bracketTfalseTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_addLeftAndRightChildtoSingleRoot - 2019.06.17 at 11h 45m 26s.xml">
+      <configuration name="BinaryTreeTest.addLeftAndRightChildtoSingleRoot" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30514705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30882353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -465,13 +393,13 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32944608" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Black Caiman" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -487,6 +415,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3095588" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32944608" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Black Caiman" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="RDE" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32944608" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/Library.java">
@@ -601,10 +561,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="121" selection-start-line="18" selection-start-column="121" selection-end-line="18" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,13 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -682,36 +674,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/multibracketvalidation/MultiBracketValidation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="291">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/multibracketvalidation/MultiBracketValidationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
           </folding>
         </state>
       </provider>
