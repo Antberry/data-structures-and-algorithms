@@ -4,10 +4,18 @@ import java.util.ArrayList;
 
 
     public class BinaryTree {
-        Node root;
+        public Node root;
 
         public BinaryTree(){
             root = null;
+        }
+
+        public Node getRoot() {
+            return root;
+        }
+
+        public BinaryTree(Node node){
+            this.root = node;
         }
 
         public ArrayList<Object> preOrder(Node node){

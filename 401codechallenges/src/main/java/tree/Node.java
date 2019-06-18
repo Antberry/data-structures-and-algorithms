@@ -1,9 +1,9 @@
 package tree;
 
 public class Node {
-    Object data;
-    Node left = null;
-    Node right = null;
+    public Object data;
+    public Node left = null;
+    public Node right = null;
 
     public Node(Object val)
     {
