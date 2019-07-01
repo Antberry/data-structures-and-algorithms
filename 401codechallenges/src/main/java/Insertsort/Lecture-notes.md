@@ -18,7 +18,7 @@
 
 ## PSEUDO
 
-[WHITEBOARD](../assets/insertsort.jpg)
+[WHITEBOARD](otherReadmes/InsertSort.md)
 
 
 
