@@ -20,3 +20,6 @@
 ## Week 4
 
 [Binary Tree](otherReadmes/binarytree.md)
+
+## Week 6
+[Insert Sort](otherReadmes/InsertSort.md)
