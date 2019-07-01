@@ -14,3 +14,12 @@
 [Stacks and Queues](otherReadmes/stackandqueue.md)
 
 [Queue with Stacks](otherReadmes/queuewithstack.md)
+
+[multibracketvalidation](otherReadmes/multibracketvalidation.md)
+
+## Week 4
+
+[Binary Tree](otherReadmes/binarytree.md)
+
+## Week 6
+[Insert Sort](otherReadmes/InsertSort.md)

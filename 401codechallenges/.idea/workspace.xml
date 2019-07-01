@@ -26,6 +26,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/src/main/java/Insertsort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -35,14 +36,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/Insertsort/Lecture-notes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
+=======
+
+        <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/InsertShiftArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="49" />
+
+>>>>>>> c2190f70fe100827609eee6a5afd0b5f25928eee
             </state>
           </provider>
         </entry>
       </file>
+
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Insertsort/img">
           <provider selected="true" editor-type-id="images" />
@@ -65,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,10 +98,7 @@
         <option value="$PROJECT_DIR$/src/test/java/codechallenges/linked_listTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/codechallenges/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Insertionsort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/Insertionsort/InsertSortTest.java" />
@@ -112,6 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +151,14 @@
               <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="401codechallenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="401codechallenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -149,6 +167,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="401codechallenges" type="b2602c69:ProjectViewProjectNode" />
@@ -156,14 +176,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+
+>>>>>>> c2190f70fe100827609eee6a5afd0b5f25928eee
               <item name="Insertsort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,6 +197,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+
       <recent name="Insertionsort" />
       <recent name="stacksandqueues" />
       <recent name="codechallenges" />
@@ -197,6 +218,7 @@
       </list>
     </option>
   </component>
+
   <component name="RunManager" selected="JUnit.InsertSortTest.duplicateNumTest">
     <configuration name="InsertSortTest.duplicateNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
@@ -214,6 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="InsertSortTest.emptyArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
@@ -225,11 +248,13 @@
       <option name="PACKAGE_NAME" value="Insertsort" />
       <option name="MAIN_CLASS_NAME" value="Insertsort.InsertSortTest" />
       <option name="METHOD_NAME" value="emptyArrayTest" />
+=======
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="InsertSortTest.sortArrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
@@ -245,15 +270,16 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
+
     <configuration name="QueueTest.InstantiateEmptyQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <option name="PACKAGE_NAME" value="stacksandqueues" />
       <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
       <option name="METHOD_NAME" value="InstantiateEmptyQueueTest" />
@@ -262,14 +288,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="QueueTest.emptyQueueWithMultiDequeueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="401codechallenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <option name="PACKAGE_NAME" value="stacksandqueues" />
       <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
       <option name="METHOD_NAME" value="emptyQueueWithMultiDequeueTest" />
@@ -280,6 +308,7 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="JUnit.InsertSortTest.duplicateNumTest" />
         <item itemvalue="JUnit.InsertSortTest.sortArrTest" />
         <item itemvalue="JUnit.InsertSortTest.emptyArrayTest" />
@@ -302,6 +331,13 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
+=======
+
+    <history-entry file="InsertSortTest_emptyArrayTest - 2019.07.01 at 10h 10m 28s.xml">
+      <configuration name="InsertSortTest.emptyArrayTest" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> c2190f70fe100827609eee6a5afd0b5f25928eee
     <history-entry file="InsertSortTest_emptyArrayTest - 2019.07.01 at 10h 11m 10s.xml">
       <configuration name="InsertSortTest.emptyArrayTest" configurationId="JUnit" />
     </history-entry>
@@ -328,6 +364,7 @@
     </history-entry>
     <history-entry file="InsertSortTest_sortArrTest - 2019.07.01 at 10h 32m 46s.xml">
       <configuration name="InsertSortTest.sortArrTest" configurationId="JUnit" />
+
     </history-entry>
     <history-entry file="InsertSortTest_duplicateNumTest - 2019.07.01 at 10h 34m 55s.xml">
       <configuration name="InsertSortTest.duplicateNumTest" configurationId="JUnit" />
@@ -336,7 +373,12 @@
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="777" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2860294" />
+=======
+
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28235295" />
+>>>>>>> c2190f70fe100827609eee6a5afd0b5f25928eee
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -344,7 +386,11 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -367,18 +413,39 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3095588" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944608" />
+>>>>>>> c2190f70fe100827609eee6a5afd0b5f25928eee
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Black Caiman" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="RDE" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32944608" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/Library.java">
@@ -417,6 +484,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/linked_listTest.java" />
+
     <entry file="file://$PROJECT_DIR$/src/main/java/codechallenges/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -428,6 +496,7 @@
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/test/java/codechallenges/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3705">
@@ -440,8 +509,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="855">
           <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+
           <folding>
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
@@ -467,14 +538,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="840">
           <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+
           </folding>
         </state>
       </provider>
-    </entry>
+
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
