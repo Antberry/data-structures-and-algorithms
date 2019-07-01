@@ -18,7 +18,7 @@
 
 ## PSEUDO
 
-[WHITEBOARD](otherReadmes/InsertSort.md)
+[WHITEBOARD](data-structures-and-algorithms/otherReadmes/InsertSort.md)
 
 
 
