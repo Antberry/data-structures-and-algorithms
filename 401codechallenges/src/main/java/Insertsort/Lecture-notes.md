@@ -13,8 +13,8 @@
     - test and empty array, array with duplicate numbers, and a many numbers unsorted numbers.
 
 ## Visual
-- [Code Snippet](../images/insertsortsnippet.png)
-- [Test Snippet](../401codechallenges/src/main/java/Insertsort/images/insertsorttestsnip.png)
+- [Code Snippet](../assets/insertsort.jpg)
+- [Test Snippet](../assets/TestSnippet.png)
 
 ## PSEUDO
 
