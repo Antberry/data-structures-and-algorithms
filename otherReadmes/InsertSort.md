@@ -17,4 +17,4 @@ I implemented an method where it loops through an array and save the next value 
 
 [Whiteboard](../assets/insertsort.jpg)
 
-[Lecture](../401codechallenges/src/main/java/Insertsort/Lecture-notes)
+[Lecture](https://github.com/Antberry/data-structures-and-algorithms/blob/master/401codechallenges/src/main/java/Insertsort/Lecture-notes.md)
