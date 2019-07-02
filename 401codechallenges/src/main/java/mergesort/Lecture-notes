@@ -1,16 +1,18 @@
 ## Learning Objective
 
-- Will learn how to sort an array.
+- Will learn how to sort an array using the merge sort method.
 - Test the method to see if the code works.
 
 ## Lecture Flow
 
 - What is an array.
     - Array is an object which contains elements of a similar data type.
-- How to sort the array;
-    - loop thru the Arr and see if the number is larger than the previous then replace it.
-- Then test the array.
-    - test and empty array, array with duplicate numbers, and a many numbers unsorted numbers.
+- How to Merge Sort an array;
+    - The idea is to keep breaking the array in half until you cannot break in half anymore. Then you want to sort it
+    and merge it back together as you go.
+    - test and empty array, array with duplicate numbers, and a many numbers unsorted numbers, and test a not equal sorted
+    array.
+
 
 ## Visual
 - [Code Snippet]()
