@@ -13,8 +13,8 @@
     - test and empty array, array with duplicate numbers, and a many numbers unsorted numbers.
 
 ## Visual
-- [Code Snippet](../assets/insertsort.jpg)
-- [Test Snippet](../assets/TestSnippet.png)
+- [Code Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/401codechallenges/src/main/java/Insertsort/images/insertsortsnippet.png)
+- [Test Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/TestSnippet.png)
 
 ## PSEUDO
   InsertionSort(int[] arr)
