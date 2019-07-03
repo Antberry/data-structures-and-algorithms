@@ -13,6 +13,14 @@
     - test and empty array, array with duplicate numbers, and a many numbers unsorted numbers.
 
 ## Visual
+<<<<<<< HEAD
+- [Code Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/insertsort.jpg)
+- [Test Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/TestSnippet.png)
+
+## PSEUDO
+
+[WHITEBOARD](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/insertsort.jpg)
+=======
 - [Code Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/401codechallenges/src/main/java/Insertsort/images/insertsortsnippet.png)
 - [Test Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/TestSnippet.png)
 
@@ -37,6 +45,7 @@
  
  [Video About insertion Sort](https://www.youtube.com/watch?v=lCDZ0IprFw4)
  
+>>>>>>> a1cc0b8e15ecfe29cbeb315aa37c7a4bcbbf605e
 
 
 
