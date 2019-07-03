@@ -17,4 +17,4 @@ Divide and conquer method. It picks an element as pivot and partitions the given
 
 [Whiteboard](../assets/insertsort.jpg)
 
-[Lecture](https://github.com/Antberry/data-structures-and-algorithms/blob/master/401codechallenges/src/main/java/Insertsort/Lecture-notes.md)
+[Lecture](https://github.com/Antberry/data-structures-and-algorithms/blob/master/401codechallenges/src/main/java/quicksort/Lecture-Notes.md)
