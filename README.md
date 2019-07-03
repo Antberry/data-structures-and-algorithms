@@ -23,4 +23,5 @@
 
 ## Week 6
 [Insert Sort](otherReadmes/InsertSort.md)
+
 [Merge Sort](otherReadmes/MergerSort.md)
