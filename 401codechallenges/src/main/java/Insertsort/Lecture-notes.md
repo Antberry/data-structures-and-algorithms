@@ -14,11 +14,11 @@
 
 ## Visual
 - [Code Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/insertsort.jpg)
-- [Test Snippet]()
+- [Test Snippet](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/TestSnippet.png)
 
 ## PSEUDO
 
-[WHITEBOARD]()
+[WHITEBOARD](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/insertsort.jpg)
 
 
 
