@@ -23,3 +23,5 @@
 
 ## Week 6
 [Insert Sort](otherReadmes/InsertSort.md)
+
+[Merge Sort](https://github.com/Antberry/data-structures-and-algorithms/blob/master/otherReadmes/MergeSort.md)
