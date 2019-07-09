@@ -27,3 +27,6 @@
 [Merge Sort](https://github.com/Antberry/data-structures-and-algorithms/blob/master/otherReadmes/MergeSort.md)
 
 [Quick Sort](https://github.com/Antberry/data-structures-and-algorithms/blob/master/otherReadmes/quickSort.md)
+
+## Week 7
+[Hash Tables](https://github.com/Antberry/data-structures-and-algorithms/blob/master/otherReadmes/hashtable.md)
