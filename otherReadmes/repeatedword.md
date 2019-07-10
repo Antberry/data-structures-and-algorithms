@@ -18,4 +18,4 @@ If so I saved the string in a variable then returned it.
 
 [Link to Test](https://github.com/Antberry/data-structures-and-algorithms/blob/master/401codechallenges/src/test/java/repeatedword/RepeatedWordTest.java)
 
-[Whiteboard](../assets/insertsort.jpg)
+[Whiteboard](https://github.com/Antberry/data-structures-and-algorithms/blob/master/assets/repeatedword.jpg)
