@@ -30,3 +30,5 @@
 
 ## Week 7
 [Hash Tables](https://github.com/Antberry/data-structures-and-algorithms/blob/master/otherReadmes/hashtable.md)
+
+[Repeated Word](https://github.com/Antberry/data-structures-and-algorithms/blob/master/otherReadmes/repeatedword.md)
