@@ -5,7 +5,7 @@ import java.util.Optional;
 
 public class Node<T> {
     T value;
-    HashSet<Edge> neighbors;
+    public HashSet<Edge> neighbors;
 
     public Node(T value){
         this.value = value;
