@@ -1,8 +1,6 @@
 package graph;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class Graph {
     HashSet<Node> graphNodes;
@@ -11,10 +9,11 @@ public class Graph {
        this.graphNodes = new HashSet<>();
     }
 
-    public Node addNode(Node node){
-        this.graphNodes.add(node);
+    public Node addNode(String value){
+        Node newNode = new Node(value);
+        this.graphNodes.add(newNode);
 
-        return node;
+        return newNode;
     }
 
     public void addEdge(Node node1, Node node2, int weight){
@@ -37,5 +36,34 @@ public class Graph {
 
     public int size(){
         return this.graphNodes.size();
+    }
+
+    public ArrayList<Node> BreathFirst(Node node){
+        ArrayList<Node> visited = new ArrayList<Node>();
+        Queue<Node> queue = new LinkedList<Node>();
+
+        queue.add(node);
+        visited.add(node);
+
+        while(!queue.isEmpty()){
+            Node temp = queue.poll();
+            HashSet<Edge> edges = temp.neighbors;
+            for(Edge edge: edges){
+                if(!visited.contains(edge.node)){
+                    queue.add(edge.node);
+                    visited.add(edge.node);
+                }
+            }
+
+
+        }
+
+        return visited;
+    }
+
+    public String getEdge(Edge edge){
+
+
+        return string;
     }
 }
